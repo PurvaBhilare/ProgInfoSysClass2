@@ -1,10 +1,15 @@
 <html>
   <head>
     <title>My Document</title>
+    <script>
+      let doIt = () =>{
+        inputText = document.getElementById("userInput").value
+        alert(Number(inputText))
+      }
+    </script>
   </head>
   <body>
-    <p>
-      Hello World!
-    </p>
+    <input type="text" id="userInput">
+    <button onclick="doIt()">Press Me!</button>
   </body>
 </html>
