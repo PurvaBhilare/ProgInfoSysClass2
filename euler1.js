@@ -14,6 +14,7 @@ sumOfMultiples = (a,b,n) =>{
             sm += i
         }
     }
+    return sm
 }
 //test 1
 console.log(sumOfMultiples(3,5,1000))
