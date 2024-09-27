@@ -15,5 +15,5 @@ sumOfMultiples = (a,b,n) =>{
         }
     }
 }
-//test
+//test 1
 console.log(sumOfMultiples(3,5,1000))
