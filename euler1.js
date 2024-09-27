@@ -4,4 +4,4 @@ for(let i=1;i<1000;i++){
         sum += i
     }
 }
-console.log(`Sum of mulyiples of 3 or 5 below 100 is ${sum}`)
+console.log(`Sum of mulyiples of 3 or 5 below 1000 is ${sum}`)
